@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="VR_podstawy_lokomocji"
-run/main_scene="uid://bagolyyu0so05"
+config/name="WebXR"
+run/main_scene="uid://bwmb32vhccube"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
