@@ -1,0 +1,17 @@
+; hand_material.tres
+; StandardMaterial3D using the provided PBR textures from the ZIP.
+; Assign this material to the MeshInstance3D inside the imported PlayerHand scene.
+
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/Player_hands_BaseColor.jpg" id="1"]
+[ext_resource type="Texture2D" path="res://assets/textures/Player_hands_Normal.jpg" id="2"]
+[ext_resource type="Texture2D" path="res://assets/textures/Player_hands_OcclusionRoughnessMetallic.jpg" id="3"]
+
+[resource]
+albedo_texture = ExtResource("1")
+normal_enabled = true
+normal_texture = ExtResource("2")
+orm_texture = ExtResource("3")
+metallic = 0.0
+roughness = 1.0
