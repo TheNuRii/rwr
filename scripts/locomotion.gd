@@ -24,7 +24,7 @@ func _physics_process(delta: float) -> void:
 	right.y = 0.0
 	right = right.normalized()
 
-	var dir: Vector3 = fwd * (-v.y) + right * v.x
+	var dir: Vector3 = fwd * (v.y) + right * v.x
 	if dir.length_squared() < 0.001:
 		return
 
