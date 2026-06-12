@@ -16,7 +16,7 @@ func _physics_process(delta: float) -> void:
 
 	var cam_basis: Basis = _player.head.global_transform.basis
 
-	var fwd: Vector3 = -cam_basis.z
+	var fwd: Vector3 = cam_basis.z
 	fwd.y = 0.0
 	fwd = fwd.normalized()
 
